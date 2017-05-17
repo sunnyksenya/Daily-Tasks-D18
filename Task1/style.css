@@ -1,0 +1,62 @@
+.test {
+  width: 100px;
+  height: 100px;
+  background-color: lime;
+  margin: 10px;
+}
+.out {
+  width: 100px;
+  height: 20px;
+  border: 1px solid black;
+  margin: 10px;
+  text-align: center;
+}
+.folder {
+  width: 128px;
+  height: 128px;
+  border: 1px solid black;
+  margin: 10px;
+  background-image: url(https://cdn2.iconfinder.com/data/icons/snipicons/5000/folder-close-128.png);
+  background-repeat: no-repeat;
+}
+.hundred {
+  width: 30px;
+  height: 30px;
+  background-color: blue;
+  margin: 10px 1px 10px 10px;
+  float: left;
+  transition: 0.3s;
+}
+.hundred_master::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+.four {
+  width: 250px;
+  background-color: yellow;
+  margin: 10px;
+}
+.four_master {
+  width: 100%;
+  height: 250px;
+  background-size: contain;
+}
+.images {
+  float: left;
+}
+.four_images {
+  border: 1px solid black;
+  height: 150px;
+}
+.four_images::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+.five {
+  width: 50px;
+  height: 50px;
+  background-color: green;
+  margin: 10px;
+}
